@@ -44,10 +44,10 @@ fools_as_array.reverse();
 # for i in range(1,10):
     # print i
 
-# def say_hell(name):
-#     print "Please go to Hell, " + name;
-#
-# say_hell("Drew");
+def say_hell(name):
+    print "Please go to Hell, " + name;
+
+say_hell("Drew");
 
 name = "Sean";
 age = 400;
