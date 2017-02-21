@@ -87,8 +87,19 @@ zombies[0]["victims"] = ["fred weasley", "hermione granger"];
 
 # print zombies[0]["victims"][0];
 
-zombie[0]["night_power_up"] = {
-    "power": 23,
-    "hunger": 20,
-    "weapon": "human arm"
+# zombie[0]["night_power_up"] = {
+#     "power": 23,
+#     "hunger": 20,
+#     "weapon": "human arm"
+# };
+
+phonebook_dict = {
+  'Alice': '703-493-1834',
+  'Bob': '857-384-1234',
+  'Elizabeth': '484-584-2923'
 };
+
+# print phonebook_dict["Elizabeth"];
+phonebook_dict["Kareem"] = "938-489-1234";
+
+print phonebook_dict
